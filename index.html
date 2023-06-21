@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>notNotion - Manage And Search Your Pending Tasks In Clicks!</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">
+                    notNotion
+                </p>
+                <p class="subtitle">
+                    Manage And Search Your Pending Tasks In 1 Clicks!
+                </p>
+            </section>
+            <section class="task-manager">
+                <div class="search-box">
+                    <form class="search">
+                        <input type="text" name="task" id="" autocomplete="off" autofocus="off"
+                            placeholder="search task">
+                        <i class="bi bi-x-circle reset"></i>
+                    </form>
+                </div>
+                <div class="task-box">
+                    <ul class="tasks">
+                        <li>
+                            <span>Learn JS</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                    </ul>
+                    <form class="add">
+                        <input type="text" name="task" placeholder="add task" id="" autocomplete="off">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="message">
+                    <span></span>
+                    <button class="clear">Clear All</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
